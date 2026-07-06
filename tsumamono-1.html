@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>つまもの | すだち海老</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Noto Sans JP', sans-serif; background: #F5F0E8; color: #2A2A2A; }
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 48px; background: rgba(13,43,45,0.92); backdrop-filter: blur(8px);
+    }
+    .nav-logo { font-family: 'Noto Serif JP', serif; color: #E8DCC8; font-size: 16px; text-decoration: none; }
+    .back-btn { color: #E8DCC8; text-decoration: none; font-size: 13px; opacity: 0.75; }
+    .hero {
+      min-height: 60vh; background: #0D2B2D;
+      display: flex; align-items: center; justify-content: center;
+      padding: 120px 48px 80px; text-align: center;
+    }
+    .hero h1 { font-family: 'Noto Serif JP', serif; font-size: 40px; color: #E8DCC8; font-weight: 300; margin-bottom: 16px; }
+    .hero p { color: rgba(232,220,200,0.6); font-size: 14px; letter-spacing: 0.2em; }
+    .coming { max-width: 600px; margin: 80px auto; padding: 0 48px; text-align: center; }
+    .coming-badge {
+      display: inline-block; padding: 12px 32px;
+      border: 1.5px solid #C8923A; color: #C8923A;
+      font-size: 14px; letter-spacing: 0.2em; margin-bottom: 24px;
+    }
+    .coming p { font-size: 14px; color: #5A5A5A; line-height: 2; }
+    @media (max-width: 768px) {
+      nav { padding: 16px 24px; }
+      .hero { padding: 100px 24px 60px; }
+      .coming { padding: 0 24px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="nav-logo" href="index.html">すだち海老</a>
+    <a class="back-btn" href="index.html">← 戻る</a>
+  </nav>
+  <div class="hero">
+    <div>
+      <h1>つまもの</h1>
+      <p>Tsumamono</p>
+    </div>
+  </div>
+  <div class="coming">
+    <div class="coming-badge">Coming Soon</div>
+    <p>神山町の山里から、季節のつまものを食卓へ。料理に彩りを添える、四季折々の一品。<br><br>近日公開予定です。</p>
+  </div>
+</body>
+</html>
