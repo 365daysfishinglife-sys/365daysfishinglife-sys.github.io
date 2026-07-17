@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>養殖場 | すだち海老</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Noto Sans JP', sans-serif; background: #F5F0E8; color: #2A2A2A; }
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 48px; background: rgba(13,43,45,0.92); backdrop-filter: blur(8px);
+    }
+    .nav-logo { font-family: 'Noto Serif JP', serif; color: #E8DCC8; font-size: 16px; text-decoration: none; }
+    .back-btn { color: #E8DCC8; text-decoration: none; font-size: 13px; opacity: 0.75; }
+    .hero {
+      min-height: 60vh; background: #0D2B2D;
+      display: flex; align-items: center; justify-content: center;
+      padding: 120px 48px 80px; text-align: center;
+    }
+    .hero h1 { font-family: 'Noto Serif JP', serif; font-size: 40px; color: #E8DCC8; font-weight: 300; margin-bottom: 16px; }
+    .hero p { color: rgba(232,220,200,0.6); font-size: 14px; letter-spacing: 0.2em; }
+    .photo-area {
+      max-width: 800px; margin: 80px auto; padding: 0 48px; text-align: center;
+    }
+    .photo-area img {
+      width: 100%; height: auto; border-radius: 4px; display: block;
+      box-shadow: 0 12px 32px rgba(13,43,45,0.15);
+    }
+    .photo-caption {
+      margin-top: 16px; color: #5A5A50; font-size: 13px; letter-spacing: 0.05em;
+    }
+    @media (max-width: 768px) {
+      nav { padding: 16px 24px; }
+      .hero { padding: 100px 24px 60px; }
+      .photo-area { padding: 0 24px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="nav-logo" href="index.html">すだち海老</a>
+    <a class="back-btn" href="index.html">← 戻る</a>
+  </nav>
+  <div class="hero">
+    <div>
+      <h1>養殖場</h1>
+      <p>Mountain Farm</p>
+    </div>
+  </div>
+  <div class="photo-area">
+    <img src="suigenchi.jpg" alt="鮎喰川の源流">
+    <p class="photo-caption">鮎喰川源流域の清流。ここでミナミテナガエビを育てています。</p>
+  </div>
+</body>
+</html>
